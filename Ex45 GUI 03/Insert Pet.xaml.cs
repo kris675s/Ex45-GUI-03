@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Ex45_GUI_03
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Insert_Pet.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Insert_Pet : Window
     {
-        public MainWindow()
+        public Insert_Pet()
         {
             InitializeComponent();
-        }
-
-        private void InsertPet_Click(object sender, RoutedEventArgs e)
-        {
-            Insert_Pet insertPet = new Insert_Pet();
-            insertPet.Show();
-            this.Close();
         }
     }
 }

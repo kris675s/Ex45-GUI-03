@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:Ex45_GUI_03"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid RenderTransformOrigin="0.494,0.512">
+        <Label Content="Main" HorizontalAlignment="Left" Margin="337,108,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.451,0.437"/>
+        <Button x:Name="InsertPet" Content="Insert Pet" HorizontalAlignment="Left" Margin="259,160,0,0" VerticalAlignment="Top" Width="177" Click="InsertPet_Click"/>
+        <Button x:Name="InsertOwner" Content="Insert Owner" HorizontalAlignment="Left" Margin="259,198,0,0" VerticalAlignment="Top" Width="177"/>
+        <Button x:Name="ShowAllPets"  Content="Show All Pets" HorizontalAlignment="Left" Margin="259,238,0,0" VerticalAlignment="Top" Width="177"/>
+        <Button x:Name="FindOwner"  Content="Find Owner by Last Name" HorizontalAlignment="Left" Margin="259,277,0,0" VerticalAlignment="Top" Width="177"/>
+        <Button x:Name="EndProgram"  Content="EndProgram" HorizontalAlignment="Left" Margin="300,337,0,0" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
 </Window>
